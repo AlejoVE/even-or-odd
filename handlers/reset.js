@@ -4,7 +4,8 @@ function resetHandler() {
   strings.evens = [];
   strings.odds = [];
   strings.NaNy = [];
-
+  const newInput = document.getElementById("input");
+  newInput.value = "";
   // re-render UI from state
   const currentDisplayed = strings.displayed;
   const currentArray = strings[currentDisplayed];
