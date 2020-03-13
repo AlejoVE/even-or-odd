@@ -13,6 +13,8 @@ function saveHandler() {
     strings.odds.push(newInput);
   }
 
+  const inputBox = document.getElementById("input");
+  inputBox.value = "";
   // log user interaction: handler name, user input, new state
   log.push({
     handler: 'save',
