@@ -10,6 +10,9 @@ window.onload = () => {
   listContainer.innerHTML = '';
   listContainer.appendChild(currentListComponent);
 
+  const inputBox = document.getElementById("input");
+  inputBox.focus();
+
   // log initial state
   log.push({
     initialStrings: JSON.parse(JSON.stringify(strings))
