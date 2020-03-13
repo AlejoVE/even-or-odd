@@ -1,5 +1,5 @@
 const strings = {
-  displayed: 'evens',
+  displayed: "evens",
   evens: [],
   odds: [],
   NaNy: [],

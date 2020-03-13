@@ -4,6 +4,7 @@ const renderList = (array, displayed) => {
   
   const divEl = document.createElement("div");
   divEl.id = displayed;
+  divEl.className = "list";
   
   const h4El = document.createElement("h4");
   h4El.innerHTML = displayed;
