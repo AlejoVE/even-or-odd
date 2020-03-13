@@ -15,6 +15,7 @@ function saveHandler() {
 
   const inputBox = document.getElementById("input");
   inputBox.value = "";
+  inputBox.focus();
   // log user interaction: handler name, user input, new state
   log.push({
     handler: 'save',
